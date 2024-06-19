@@ -5,7 +5,7 @@
     "description": "Frontend Developer",
     "image": "Blogger.png",
     "dev": "frontend",
-    "link": "#"
+    "link": "https://jimeneza.blogspot.com/"
   }
   ,{
       "id": "2",
@@ -19,8 +19,8 @@
       "id": "3",
       "name": "Angel Jimenez",
       "description": "Softeare Developer",
-      "image": "img2.jpg",
+      "image": "my-site.png",
       "dev": "fullstack",
-      "link": "#"
+      "link": "https://jimeneza14.github.io/cv/"
     }
 ]
