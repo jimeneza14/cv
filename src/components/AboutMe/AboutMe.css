@@ -14,9 +14,10 @@
   position: fixed;
   top: 0;
   width: 75%;
-  z-index: 1000; /* Ajusta según sea necesario */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra cuando está fijo */
-  transition: 0.5s;
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: top 0.5s ease-in-out;
+  /* transition: 0.5s; */
 }
 
 .workexperience div {
