@@ -6,7 +6,6 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import AboutMe from "./components/AboutMe/AboutMe";
 import ContactMe from "./components/ContactMe/ContactMe";
 import PDFViewer from "./components/AboutMe/PDFViewer";
-// import HeroSection from "./components/SideNav/HeroSection";
 import "./App.css";
 
 const App = () => {
