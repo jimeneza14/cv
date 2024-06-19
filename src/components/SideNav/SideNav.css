@@ -1,0 +1,157 @@
+/* SIDE-NAV */
+.sidenav {
+      height: 100%;
+      width: 15rem;
+      position: fixed;
+      z-index: 3;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      overflow-x: hidden;
+      transition: 0.5s;
+      background-color: #404b55;
+      box-shadow: inset 0px 0px 1rem;
+      padding: 0;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #6c757d;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .closebtn {
+      position: absolute;
+      display: none !important;
+      margin: 10px !important;
+      color: #ffffff;
+      top: 0;
+      font-size: 3rem !important;
+      width: 2rem;
+      height: 2rem;
+      text-align: center;
+    }
+    
+    /* The hero image */
+    
+    .heroimage {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/assets/img/img1.jpg");
+      height: 12rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    /* Place text in the middle of the image */
+    
+    .herotextp {
+      position: absolute;
+      bottom: 0;
+      margin: 0 0 10px 10px !important;
+      color: white;
+    }
+    
+    .navlink {
+      position: absolute;
+      top: 0;
+      right: 5px;
+      height: 100%;
+      width: 50px;
+    }
+    
+    .navlink a {
+      position: relative;
+      right: 0px;
+    }
+    
+    .sidenavdesc {
+      padding: 10px 0 0 10px !important;
+    }
+    
+    .sidenavdesc p {
+      margin: auto 5px auto auto !important;
+      color: #818181;
+    }
+    
+    .sidenavdesc p > a {
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    
+    .sidenavsocial {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 0 10px 10px 10px !important;
+    }
+    
+    /* Style the icon bar links */
+    
+    .sidenavsocial a {
+      display: block;
+      text-align: center;
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 20px;
+      width: 30px;
+      height: auto;
+      border-radius: 50%!important;
+      border: 0!important;
+      box-shadow: var(--bs-box-shadow-lg)!important;
+    }
+    
+    /* Style the social media icons with color, if you want */
+    
+    .sidenavsocial a:hover {
+      background-color: #000;
+    }
+    
+    .sidenavsocial a > em {
+      padding-left: 5px !important;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .whatsapp {
+      background: #12b304;
+      color: white;
+    }
+    
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .github {
+      background-color: #ffffff;
+      color: #ffffff;
+    }
+
+    @media screen and (max-width: 576px) {
+      .sidenav {
+        width: 0;
+      }
+    }
+    
+    @media screen and (max-width: 576px) {
+      .closebtn {
+        display: block !important;
+      }
+    }    
+    /* END SIDE-NAV */

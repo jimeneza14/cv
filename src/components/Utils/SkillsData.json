@@ -1,0 +1,105 @@
+[
+  {
+    "id": "1",
+    "Title": "Frameworks y Librerías",
+    "items": [
+      { "ASP.NET": "90" },
+      { "React": "85" },
+      { "Nodejs": "85" },
+      { "Express": "85" },
+      { "Bootstrap": "90" }
+    ]
+  },
+  {
+    "id": "2",
+    "Title": "Lenguajes de Marcado y de Estilos",
+    "items": [
+      { "HTML": "90" },
+      { "CSS": "90" },
+      { "SASS": "75" },
+      { "LESS": "75" }
+    ]
+  },
+  {
+    "id": "3",
+    "Title": "Lenguaje de programación",
+    "items": [{ "C#": "90" }, { "JavaScript": "85" }, { "SQL": "80" }]
+  },
+  {
+    "id": "4",
+    "Title": "Técnicas y Tecnologías de Comunicación",
+    "items": [{ "AJAX": "70" }, { "WCF": "60" }, { "RESTful": "70" }]
+  },
+  {
+    "id": "5",
+    "Title": "IDE y Entornos de Desarrollo",
+    "items": [
+      { "Visual Studio": "90" },
+      { "Visual Studio Code": "90" },
+      { ".NET": "90" }
+    ]
+  },
+  {
+    "id": "6",
+    "Title": "Formatos de Datos",
+    "items": [{ "JSON": "90" }, { "XML": "80" }]
+  },
+  {
+    "id": "7",
+    "Title": "Contenedorización y Orquestación",
+    "items": [{ "Docker": "75" }, { "Kubernetes": "80" }]
+  },
+  {
+    "id": "8",
+    "Title": "Infraestructura como Código (IaC)",
+    "items": [{ "Terraform": "80" }, { "Ansible": "80" }]
+  },
+  {
+    "id": "9",
+    "Title": "Bases de Datos Relacionales (RDBMS)",
+    "items": [{ "Microsoft SQL Server": "85" }, { "Oracle": "60" }]
+  },
+  {
+    "id": "10",
+    "Title": "Bases de Datos NoSQL",
+    "items": [{ "MongoDB": "80" }, { "Azure CosmosDB": "70" }]
+  },
+  {
+    "id": "11",
+    "Title": "Aplicaciones de Escritorio",
+    "items": [
+      { "Cliente inteligente": "60" },
+      { "Formularios Windows Forms": "90" }
+    ]
+  },
+  {
+    "id": "12",
+    "Title": "Infraestructura como Servicio (IaS)",
+    "items": [{ "Microsoft Azure": "85" }]
+  },
+  {
+    "id": "13",
+    "Title": "Ingeniería de Confiabilidad del Sitio (SRE)",
+    "items": [{ "Azure DevOps": "85" }]
+  },
+  {
+    "id": "14",
+    "Title": "Control de Versiones",
+    "items": [{ "Git": "85" }]
+  },
+  {
+    "id": "15",
+    "Title": "Sistemas de Servidor",
+    "items": [{ "IIS": "75" }]
+  },
+  {
+    "id": "16",
+    "Title": "Patrones y prácticas de desarrollo de software",
+    "items": [{ "GoF (Gang of Four)": "80" }]
+  },
+  {
+    "id": "17",
+    "Title": "Sistemas de Gestión de Contenidos",
+    "items": [{ "DotNetNuke (DNN)": "90" }]
+  }
+]

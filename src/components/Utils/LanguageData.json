@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "language": "Español",
+    "label": [
+      { "Habla": "90" },
+      { "Escribe": "90" },
+      { "lee": "90" }
+    ]
+  },
+  {
+      "id": "2",
+      "language": "Ingles",
+      "label": [
+        { "Habla": "80" },
+        { "Escribe": "70" },
+        { "lee": "90" }
+      ]
+    }
+]

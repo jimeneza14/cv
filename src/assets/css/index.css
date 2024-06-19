@@ -1,0 +1,392 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body { 
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  background-color: lightslategray;
+}
+
+html, body {
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* TOP-NAV */
+
+.topnavrow {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5rem;
+  box-shadow: inset 0px 0px 1rem;
+  z-index: 2;
+}
+
+.opennav {
+  margin-left: 1rem !important;
+  padding: 0.5rem !important;
+  cursor: pointer;
+}
+
+.topnavimg {
+  width: 3.2rem;
+  margin-right: 1rem !important;
+}
+
+/* END TOP-NAV */
+
+/* SIDE-NAV */
+
+.sidenav {
+  height: 100%;
+  width: 15rem;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: #404b55;
+  box-shadow: inset 0px 0px 1rem;
+  padding: 0;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #6c757d;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.closebtn {
+  position: absolute;
+  display: none !important;
+  margin: 10px !important;
+  color: #ffffff;
+  top: 0;
+  font-size: 3rem !important;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+
+/* The hero image */
+
+.heroimage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/img/img1.jpg");
+  height: 12rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+
+.herotextp {
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 10px 10px !important;
+  color: white;
+}
+
+.navlink {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  height: 100%;
+  width: 50px;
+}
+
+.navlink a {
+  position: relative;
+  right: 0px;
+}
+
+.sidenavdesc {
+  padding: 10px 0 0 10px !important;
+}
+
+.sidenavdesc p {
+  margin: auto 5px auto auto !important;
+  color: #818181;
+}
+
+.sidenavdesc p > a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sidenavsocial {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 10px 10px 10px !important;
+}
+
+/* Style the icon bar links */
+
+.sidenavsocial a {
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  width: 30px;
+  height: auto;
+  border-radius: 50%!important;
+  border: 0!important;
+  box-shadow: var(--bs-box-shadow-lg)!important;
+}
+
+/* Style the social media icons with color, if you want */
+
+.sidenavsocial a:hover {
+  background-color: #000;
+}
+
+.sidenavsocial a > em {
+  padding-left: 5px !important;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.whatsapp {
+  background: #12b304;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.github {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+/* END SIDE-NAV */
+
+/* MAIN-CONTENT */
+
+.maincontent {
+  margin: 0 0 0 15rem !important;
+  z-index: 1;
+}
+
+.portfolio {
+  margin: 0px 0px 0px 12px !important;
+}
+
+.portfoliofilterbg button {
+  margin: 0px 10px 10px 0px !important;
+}
+
+.portfoliodiv {
+  height: 2px;
+  background-color: dimgrey;
+  margin: 20px 0px !important;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin: 0 0 10px 20px !important;
+  padding: 5px !important;
+  border: 1px solid #f1f1f1;
+  display: none;
+  perspective: 1000px;
+}
+
+.flip-card-back h {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the back side */
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back a {
+  color: white;
+  text-decoration: none;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+  display: flex !important;
+}
+
+.workexperience div {
+  padding: 10px 0px 0px 10px !important;
+}
+
+.workexperience1 {
+  color: #fcfcfb;
+}
+
+.workexperience1 h2 {
+  padding-top: 20px !important;
+}
+
+.workexperience1 h4 {
+  padding: 20px 0 !important;
+}
+
+.workexperience1 ul {
+  padding-left: 20px !important;
+  display: block !important;
+}
+
+.workexperience1 ul > li {
+  margin-bottom: 10px !important;
+}
+
+.skills div {
+  padding-left: 5px !important;
+}
+
+/* END MAIN-CONTENT */
+
+/* MEDIA-QUERY */
+
+@media screen and (max-width: 576px) {
+  .sidenav {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .topnavrow {
+    display: flex !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .closebtn {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .maincontent {
+    margin: 90px 0px 0px !important;
+    /*margin-left: 0 !important;*/
+    transition: 0.5s;
+    /*overflow: auto;*/
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .flip-card-back h {
+    font-size: 1.1rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .workexperience1 ul {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .workexperience1 h2 {
+    font-size: 1rem;
+  }
+}
+
+/* END MEDIA-QUERY */
+
+.aboutme > div {
+  padding: 20px 10px 2px !important;
+}
+
+.skillcontent > div, .languagecontent > div {
+  width: 230px;
+  overflow: clip;
+  box-shadow: 0px 0px 10px 5px;
+  margin: 10px !important;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px !important;
+}

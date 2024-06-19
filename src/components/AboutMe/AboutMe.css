@@ -1,0 +1,80 @@
+.aboutme > div {
+  padding: 20px 10px 2px !important;
+}
+
+.aboutme > div > div > p {
+  text-align: justify;
+}
+
+.aboutmenav{
+  background-color: #fff; /* Color de fondo cuando está fijo */
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 75%;
+  z-index: 1000; /* Ajusta según sea necesario */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra cuando está fijo */
+  transition: 0.5s;
+}
+
+.workexperience div {
+  padding: 10px 0px 0px 10px !important;
+}
+
+.workexperience > div > ul > li {
+  margin: 10px 20px !important;
+}
+
+.skills > div,
+.languages > div {
+  width: 230px;
+  overflow: clip;
+  box-shadow: 0px 0px 10px 5px;
+  margin: 10px !important;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 10px !important;
+}
+
+.skillindicatorouter,
+.languagesindicatorouter {
+  padding: 0 !important;
+  z-index: 8888;
+  overflow: hidden;
+  background: var(--bs-body-color);
+  width: 200px;
+  height: 15px;
+}
+
+.skillindicatorouter > div,
+.languagesindicatorouter > div {
+  z-index: 9999;
+  background: #faf9fb;
+  width: 90%;
+  height: 15px;
+}
+
+.skillindicatorouter > div > p,
+.languagesindicatorouter > div > p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.education div {
+  margin: 10px 0px !important;
+}
+
+@media screen and (max-width: 576px) {
+  .sticky-nav {
+    width: 95%;
+    top: 80px !important;
+    transition: 0.5s;
+    padding: 0 !important;
+  }
+
+  .aboutme > div{
+    padding: 0px 10px 2px !important;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Angel Guillermo",
+    "description": "Frontend Developer",
+    "image": "Blogger.png",
+    "dev": "frontend",
+    "link": "#"
+  }
+  ,{
+      "id": "2",
+      "name": "Rafael Guillermo",
+      "description": "backend Developer",
+      "image": "Empty.png",
+      "dev": "backend",
+      "link": "#"
+    }
+    ,{
+      "id": "3",
+      "name": "Angel Jimenez",
+      "description": "Softeare Developer",
+      "image": "img2.jpg",
+      "dev": "fullstack",
+      "link": "#"
+    }
+]
