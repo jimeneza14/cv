@@ -22,7 +22,7 @@
 
 .portfoliodiv {
   height: 2px;
-  /* background-color: dimgrey; */
+  background-color: var(--bs-success);
   margin: 20px 0px !important;
 }
 
