@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "name": "Angel Jimenez Blogger",
+    "name": "Blogger",
     "description": "Mi plataforma para crear y alojar y gestionar mis blogs e interactuar con las audiencias a través de comentarios.",
     "image": "Blogger.png",
     "dev": "Frontend",
@@ -18,7 +18,7 @@
     ,{
       "id": "3",
       "name": "Github",
-      "description": "Codigo fuente del portafilio personal",
+      "description": "Codigo fuente del portafolio personal",
       "image": "my-site.png",
       "dev": "Frontend",
       "link": "https://jimeneza14.github.io/cv/"
