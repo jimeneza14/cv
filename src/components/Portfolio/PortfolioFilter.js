@@ -4,7 +4,7 @@ import "./Portfolio.css";
 const PortfolioFilter = ({ clickHandle, activeButton }) => {
   return (
     <div id="myPortfolioHeading" className="portfolioheading shadow-lg row">
-      <h1>Mi portafolio</h1>
+      <h1><em class="text-success fs-1 bi bi-grid-fill" />&nbsp;&nbsp;Mi portafolio</h1>
       <div id="myPortfolioFilter" className="portfoliofilter row">
         <span id="MyPortfolioFilterS" className="portfolioheadings col">
           Mostrar :

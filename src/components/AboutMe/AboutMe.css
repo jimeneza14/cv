@@ -1,3 +1,9 @@
+/*				*/
+/* 250px = 15.625em = 1, 389	*/
+/* 18px  => 100%		*/
+/* 250px => X			*/
+/*				*/
+
 .aboutme > div {
   padding: 20px 10px 2px !important;
 }
@@ -9,9 +15,9 @@
 .aboutmenav{
   padding-top: 10px !important;
   position: relative;
-  top: 0;
-  /* width: 100%; */
-  z-index: 1000;
+  /*bottom: 0;*/
+  width: 100%;
+  z-index: 7000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: top 0.5s ease-in-out;
 }
@@ -36,7 +42,7 @@
 
 .sticky-nav {
   position: fixed !important;
-  background-color: var(--bs-dark-bg-subtle);
+  background-color: var(--bs-light-bg-subtle);
   /* width: 100%; */
   top: 0px !important;
   transition: 0.5s;
@@ -67,7 +73,7 @@
 .skillindicatorouter,
 .languagesindicatorouter {
   padding: 0 !important;
-  z-index: 8888;
+  z-index: 5000;
   overflow: hidden;
   background: var(--bs-body-color);
   width: 200px;
@@ -76,7 +82,7 @@
 
 .skillindicatorouter > div,
 .languagesindicatorouter > div {
-  z-index: 9999;
+  z-index: 6000;
   background-color: var(--bs-gray-400);
   width: 90%;
   height: 15px;

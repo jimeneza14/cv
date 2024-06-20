@@ -4,7 +4,7 @@ import LanguageData from "../Utils/LanguageData.json";
 const Languages = () => {
   return (
     <div id="mylanguages" className="row languages shadow-lg">
-      <h3 class="">Idiomas</h3>
+      <h3><em class="text-success fs-1 bi bi-translate" />&nbsp;Idiomas</h3>
       {LanguageData.map((language) => (
         <div key={language.id} className="row LanguageHeading">
           <h5 className="languageHeading">{language.language}</h5>

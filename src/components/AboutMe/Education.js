@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div id="myeducation" className="row education shadow-lg">
       <div className="row">
-        <h3>Estudios:</h3>
+        <h3><em class="text-success fs-1 bi bi-highlighter" />&nbsp;&nbsp;Estudios:</h3>
       </div>
       {/* Mapeamos los datos para generar las secciones de educación */}
       {StudyData.map((item) => (

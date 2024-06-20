@@ -5,7 +5,7 @@ import "./AboutMe.css";
 const Skills = () => {
   return (
     <div id="myskills" className="skills row shadow-lg">      
-        <h3 class="skillsheading">Habilidades</h3>
+        <h3 class="skillsheading"><em class="text-success fs-1 bi bi-stars" />&nbsp;&nbsp;Habilidades</h3>
       {SkillsData.map((category) => (
         <div
           key={category.id}

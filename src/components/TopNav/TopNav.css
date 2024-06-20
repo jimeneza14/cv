@@ -9,7 +9,7 @@
       width: 100%;
       height: 5rem;
       /* box-shadow: inset 0px 0px 1rem; */
-      z-index: 2;
+      z-index: 8000;
     }
     
     .opennav {

@@ -59,14 +59,14 @@ const HeroSection = ({ closeNav }) => {
           ></em>
         </Link>
       </div>
-      <Link
+      <a
         className="d-flex closebtn btn"
         id="myCloseBtn"
-        to="/"
         onClick={closeNav}
+        href=""
       >
         ×
-      </Link>
+      </a>
     </div>
   );
 };
