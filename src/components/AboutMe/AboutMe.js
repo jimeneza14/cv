@@ -11,7 +11,7 @@ const AboutMe = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 80) {
+      if (window.scrollY > 200) {
         setIsNavSticky(true);
       } else {
         setIsNavSticky(false);
@@ -37,20 +37,25 @@ const AboutMe = () => {
             infraestructura de Azure, incluyendo IaC, IaS y SRE. Identificable
             con la Visión, Misión y Valores de la empresa.
           </p>
-          <nav id="myaboutmenav" className={`btn-group aboutmenav d-flex justify-content-around ${isNavSticky ? "sticky-nav" : ""}`}>
-            <Link className="btn btn-primary" role="button" to="/pdfviewer">
+          <nav
+            id="myaboutmenav"
+            className={`btn-group aboutmenav row row-cols-auto ${
+              isNavSticky ? "sticky-nav" : ""
+            }`}
+          >
+            <Link className="btn" role="button" to="/pdfviewer">
               Curriculum
             </Link>
-            <a className="nav-link btn btn-primary" role="button" href="#myworkexperience">
+            <a className="btn" role="button" href="#myworkexperience">
               Experiencias
             </a>
-            <a className="nav-link btn btn-primary" role="button" href="#myskills">
+            <a className="btn" role="button" href="#myskills">
               Habilidades
             </a>
-            <a className="nav-link btn btn-primary" role="button" href="#myeducation">
+            <a className="btn" role="button" href="#myeducation">
               Educacion
             </a>
-            <a className="nav-link btn btn-primary" role="button" href="#mylanguages">
+            <a className="btn" role="button" href="#mylanguages">
               Idiomas
             </a>
           </nav>
