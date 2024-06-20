@@ -1,26 +1,34 @@
 [
   {
     "id": "1",
-    "name": "Angel Guillermo",
-    "description": "Frontend Developer",
+    "name": "Angel Jimenez Blogger",
+    "description": "Mi plataforma para crear y alojar y gestionar mis blogs e interactuar con las audiencias a través de comentarios.",
     "image": "Blogger.png",
-    "dev": "frontend",
+    "dev": "Frontend",
     "link": "https://jimeneza.blogspot.com/"
   }
   ,{
       "id": "2",
-      "name": "Rafael Guillermo",
-      "description": "backend Developer",
+      "name": "NA",
+      "description": "Aun no hay implementacion",
       "image": "Empty.png",
-      "dev": "backend",
+      "dev": "Backend",
       "link": "#"
     }
     ,{
       "id": "3",
-      "name": "Angel Jimenez",
-      "description": "Softeare Developer",
+      "name": "Github",
+      "description": "Codigo fuente del portafilio personal",
       "image": "my-site.png",
-      "dev": "fullstack",
+      "dev": "Frontend",
       "link": "https://jimeneza14.github.io/cv/"
+    }
+    ,{
+      "id": "4",
+      "name": "NA,
+      "description": "Aun no hay implementacion",
+      "image": "Empty.png",
+      "dev": "Fullstack",
+      "link": "#"
     }
 ]
