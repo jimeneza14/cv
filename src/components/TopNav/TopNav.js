@@ -8,7 +8,7 @@ const TopNav = () => {
     <div id="myTopnavRow" className="row topnavrow">
       <div
         id="myTopNavCol"
-        className="col d-flex justify-content-between align-items-center align-content-center flex-nowrap align-items-sm-center topnavcol"
+        className="align-content-center align-items-center align-items-sm-center bg-dark-subtle col d-flex flex-nowrap justify-content-between shadow-lg topnavcol"
       >
         <span id="myOpenNav" className="opennav" onClick={openNav}>
           ☰

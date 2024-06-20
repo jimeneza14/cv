@@ -52,7 +52,7 @@
 .skillindicatorouter > div,
 .languagesindicatorouter > div {
   z-index: 9999;
-  background: #faf9fb;
+  background-color: var(--bs-gray-400);
   width: 90%;
   height: 15px;
 }

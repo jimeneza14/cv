@@ -4,22 +4,19 @@ import portfolioData from "../Utils/portfolioData.json";
 import "./Portfolio.css";
 
 const Portfolio = () => {
-  const [items, setItems] = useState([]); 
-  const [filter, setFilter] = useState("all"); 
+  const [items, setItems] = useState([]);
+  const [filter, setFilter] = useState("all");
 
   useEffect(() => {
     setItems(portfolioData);
   }, []);
 
   const filterSelection = (c) => {
-    setFilter(c); 
+    setFilter(c);
   };
 
   return (
-    <section id="myPortfolio" className="portfolio text-light row">
-      <div id="myPortfolioHeading" className="portfolioheading row">
-        <h1>Portafolio</h1>
-      </div>
+    <section id="myPortfolio" className="portfolio row">
       <PortfolioFilter clickHandle={filterSelection} activeButton={filter} />
       <div id="myPortfolioDiv" className="shadow-lg portfoliodiv row" />
       {items.map((item) => (
