@@ -4,7 +4,7 @@
     "name": "Blogger",
     "description": "Mi plataforma para crear y alojar y gestionar mis blogs e interactuar con las audiencias a través de comentarios.",
     "image": "Blogger.png",
-    "dev": "Fullstack",
+    "dev": "fullstack",
     "link": "https://jimeneza.blogspot.com/"
   }
   ,{
@@ -12,7 +12,7 @@
       "name": "NA",
       "description": "Aun no hay implementacion",
       "image": "Empty.png",
-      "dev": "Backend",
+      "dev": "backend",
       "link": "#"
     }
     ,{
@@ -20,15 +20,7 @@
       "name": "Github",
       "description": "Codigo fuente del portafolio personal",
       "image": "my-site.png",
-      "dev": "Frontend",
+      "dev": "frontend",
       "link": "https://jimeneza14.github.io/cv/"
-    }
-    ,{
-      "id": "4",
-      "name": "NA",
-      "description": "Aun no hay implementacion",
-      "image": "Empty.png",
-      "dev": "Fullstack",
-      "link": "#"
     }
 ]
