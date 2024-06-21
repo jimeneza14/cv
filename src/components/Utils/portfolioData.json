@@ -4,7 +4,7 @@
     "name": "Blogger",
     "description": "Mi plataforma para crear y alojar y gestionar mis blogs e interactuar con las audiencias a través de comentarios.",
     "image": "Blogger.png",
-    "dev": "Frontend",
+    "dev": "Fullstack",
     "link": "https://jimeneza.blogspot.com/"
   }
   ,{
@@ -25,7 +25,7 @@
     }
     ,{
       "id": "4",
-      "name": "NA,
+      "name": "NA",
       "description": "Aun no hay implementacion",
       "image": "Empty.png",
       "dev": "Fullstack",
