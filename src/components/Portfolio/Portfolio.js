@@ -18,7 +18,7 @@ const Portfolio = () => {
   return (
     <section id="myPortfolio" className="portfolio row">
       <PortfolioFilter clickHandle={filterSelection} activeButton={filter} />
-      <div id="myPortfolioDiv" className="shadow-lg portfoliodiv row" />
+      <div id="myDivider" className="shadow-lg divider row" />
       {items.map((item) => (
         <div
           key={item.id}

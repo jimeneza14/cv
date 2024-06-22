@@ -1,5 +1,5 @@
 .portfolio {
-  margin: 0px 0px 0px 12px !important;
+      margin-left: 10px !important;
 }
 
 .portfoliofilterbg button {
@@ -20,7 +20,7 @@
   --bs-gradient: none;
 }
 
-.portfoliodiv {
+.divider {
   height: 2px;
   background-color: var(--bs-success);
   margin: 20px 0px !important;
