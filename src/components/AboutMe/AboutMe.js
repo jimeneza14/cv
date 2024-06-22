@@ -38,22 +38,22 @@ const AboutMe = () => {
             }`}
           >
 	    <a className="btn" role="button" href="#myAboutMe">
-              <em class="text-success bi bi-arrow-90deg-up" />&nbsp;&nbsp;Subir
+              <em class="bi bi-arrow-90deg-up" />&nbsp;&nbsp;Subir
             </a>
             <Link className="btn" role="button" to="/pdfviewer">
-              <em class="text-success bi bi-book" />&nbsp;&nbsp;Curriculum
+              <em class="bi bi-book" />&nbsp;&nbsp;Curriculum
             </Link>
             <a className="btn" role="button" href="#myworkexperience">
-              <em class="text-success bi bi-person-workspace" />&nbsp;&nbsp;Experiencias
+              <em class="bi bi-person-workspace" />&nbsp;&nbsp;Experiencias
             </a>
             <a className="btn" role="button" href="#myskills">
-              <em class="text-success bi bi-stars" />&nbsp;&nbsp;Habilidades
+              <em class="bi bi-stars" />&nbsp;&nbsp;Habilidades
             </a>
             <a className="btn" role="button" href="#myeducation">
-              <em class="text-success bi bi-highlighter" />&nbsp;&nbsp;Educacion
+              <em class="bi bi-highlighter" />&nbsp;&nbsp;Educacion
             </a>
             <a className="btn" role="button" href="#mylanguages">
-              <em class="text-success bi bi-translate" />&nbsp;Idiomas
+              <em class="bi bi-translate" />&nbsp;Idiomas
             </a>
           </nav>
         </div>
