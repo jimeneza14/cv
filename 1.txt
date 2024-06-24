@@ -1,5 +1,0 @@
-borrar estilo
-crear repositorio
-clonar
-publicar
-captura de la pagina y agregar al proyecto
