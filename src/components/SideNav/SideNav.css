@@ -3,7 +3,7 @@
       height: 100%;
       width: 15rem;
       position: fixed;
-      z-index: 3;
+      z-index: 9000;
       top: 0;
       left: 0;
       bottom: 0;
@@ -12,6 +12,10 @@
       background-color: #404b55;
       box-shadow: inset 0px 0px 1rem;
       padding: 0;
+    }
+
+.sidenav > div.sidenavdesc a {
+      font-size: var(--bs-body-font-size);
     }
     
     .sidenav a {

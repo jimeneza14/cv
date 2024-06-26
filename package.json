@@ -1,5 +1,5 @@
 {
-  "name": "a1",
+  "name": "PortafolioAJ",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jimeneza14.github.io/cv/",
@@ -37,9 +37,9 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "Portafolio personal de Angel Jimenez",
   "main": "index.js",
-  "author": "",
+  "author": "Angel Jimenez",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.1.1",

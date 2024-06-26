@@ -6,7 +6,7 @@ const WorkExperience = () => {
   return (
     <div id="myworkexperience" className="row workexperience shadow-lg">
       <div className="row">
-        <h3>Experiencias Laborales:</h3>
+        <h3><em class="text-success fs-1 bi bi-person-workspace" />&nbsp;&nbsp;Experiencias Laborales:</h3>
       </div>
       {WorkExperienceData.map((item) => (
         <div

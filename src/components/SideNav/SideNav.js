@@ -1,11 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import HeroSection from "./HeroSection";
 import SideNavDec from "./SideNavDec";
 import SideNavSocial from "./SideNavSocial";
+import PDFViewer from "../AboutMe/PDFViewer";
+
 import "./SideNav.css";
 
 const SideNav = () => {
-useEffect(() => {
+  const [navWidth, setNavWidth] = useState("0");
+
+  useEffect(() => {
     // Agregar el event listener al cargar el componente
     window.addEventListener("resize", ajustarAnchoElemento);
 
@@ -14,42 +18,31 @@ useEffect(() => {
       window.removeEventListener("resize", ajustarAnchoElemento);
     };
   }, []);
-  
-  function openNav() {
-    document.getElementById("mySideNav").style.width = "15rem";
+
+  useEffect(() => {
+    ajustarAnchoElemento(); // Ajustar el ancho inicial al montar
+    
+  }, [navWidth]);
+
+  const toggleNav = () => {
+    setNavWidth(navWidth === "0" ? "15rem" : "0");
   };
 
-  function closeNav() {
-    ajustarAnchoElemento();
-  }
-
-  // Función para ajustar el ancho del elemento
-  function ajustarAnchoElemento() {
-    var elemento = document.getElementById("mySideNav");
-    var anchoRestaurado = 15;
-
-    elemento.style.width = (window.innerWidth > 576) ? anchoRestaurado + "rem" : "0";
-  }
+  const ajustarAnchoElemento = () => {
+    setNavWidth(window.innerWidth > 576 ? "15rem" : "0");
+  };
 
   return (
-  <div id="mySideNav" className="col sidenav">
-    <HeroSection closeNav={closeNav}></HeroSection>
-    <SideNavDec />
-    <SideNavSocial />
-  </div>
+    <div id="mySideNav" className="col sidenav" style={{ width: navWidth }}>
+      <HeroSection closeNav={toggleNav}></HeroSection>
+      <SideNavDec />
+      <SideNavSocial />
+    </div>
   );
 };
 
-// Exportamos openNav para que sea accesible desde fuera de SideNav
 export const openNav = () => {
   document.getElementById("mySideNav").style.width = "15rem";
 };
-
-export const ajustarAnchoElemento = () => {
-  var elemento = document.getElementById("mySideNav");
-  var anchoRestaurado = 15;
-
-  elemento.style.width = (window.innerWidth > 576) ? anchoRestaurado + "rem" : "0";
-}
 
 export default SideNav;

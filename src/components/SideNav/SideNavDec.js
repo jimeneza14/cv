@@ -3,36 +3,37 @@ import  React  from "react";
 const SideNavDec = () => {
   return (
   <div id="mySideNavDesc" className="sidenavdesc row">
-    <p id="mySideNavDescPProf" className="sidenavdescpprof">
+    <p id="" className="">
       <em
         id="mySideNavDescPIProf"
         className="sidenavdescpiprof bi bi-briefcase-fill"
       ></em>
          Programador
     </p>
-    <p id="mySideNavDescPAddr" className="sidenavdescpaddr">
+
+    <p id="" className="">
       <em
-        id="mySideNavDescPIAddr"
-        className="sidenavdescpiaddr bi bi-house-door-fill"
+        id="mySideNavDescPIProf"
+        className="sidenavdescpiprof bi bi-briefcase-fill"
       ></em>
-         Sto. Dgo Rep. Dom.
+         &nbsp;Sto. Dgo Rep. Dom.
     </p>
-    <p
-      id="mySideNavDescPContact"
-      className="d-flex sidenavdescpcontactparagraphcontact"
-    >
-      <em
-        id="mySideNavDescPIContact"
-        className="sidenavdescpicontact bi bi-send-fill"
-      ></em>
+
       <a
-        id="mySideNavDescPIAContact"
-        className="sidenavdescpiacontact"
+        id=""
+        className=""
         href="mailto:jimeneza14@hotmail.com"
-      >
-        &nbsp;&nbsp;&nbsp;jimeneza14@hotmail.com
+      ><em class="bi bi-send-fill" />
+	&nbsp;&nbsp;&nbsp;Enviar correo
       </a>
-    </p>
+
+      <a
+        id=""
+        className=""
+        href="tel:+18297175028"
+      ><em class="bi bi-telephone-outbound-fill" />
+	&nbsp;&nbsp;&nbsp;Llamar
+      </a>
   </div>
   );
 };

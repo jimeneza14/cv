@@ -1,94 +1,109 @@
 .portfolio {
-      margin: 0px 0px 0px 12px !important;
-    }
-    
-    .portfoliofilterbg button {
-      margin: 0px 10px 10px 0px !important;
-    }
-    
-    .portfoliodiv {
-      height: 2px;
-      background-color: dimgrey;
-      margin: 20px 0px !important;
-    }
-    
-    /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-    
-    .flip-card {
-      background-color: transparent;
-      width: 300px;
-      height: 200px;
-      margin: 0 0 20px 20px !important;
-      /* padding: 5px !important; */
-      border: 1px solid #f1f1f1;
-      display: none;
-      perspective: 1000px;
-    }
-    
-    .flip-card-back h {
-      font-size: calc(1.375rem + 1.5vw);
-    }
-    
-    /* This container is needed to position the front and back side */
-    
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      transition: transform 0.8s;
-      transform-style: preserve-3d;
-    }
-    
-    /* Do an horizontal flip when you move the mouse over the flip box container */
-    
-    .flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-    
-    /* Position the front and back side */
-    
-    .flip-card-front, .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-    }
-    
-    /* Style the front side (fallback if image is missing) */
-    
-    .flip-card-front {
-      background-color: #bbb;
-      color: black;
-    }
-    
-    .flip-card-front img {
-      width: 100%;
-      height: 100%;
-    }
-    
-    /* Style the back side */
-    
-    .flip-card-back {
-      background-color: dodgerblue;
-      color: white;
-      transform: rotateY(180deg);
-    }
-    
-    .flip-card-back a {
-      color: white;
-      text-decoration: none;
-    }
-    
-    /* The "show" class is added to the filtered elements */
-    
-    .show {
-      display: flex !important;
-    }
+      margin-left: 10px !important;
+}
 
-    @media screen and (max-width: 576px) {
-      .flip-card-back h {
-        font-size: 1.1rem !important;
-      }
-    }
+.portfoliofilterbg button {
+  --margin: 0px 10px 10px 0px !important;
+  --bs-btn-color: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-border-color: #212529;
+  --bs-btn-focus-shadow-rgb: 33, 37, 41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #212529;
+  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
+}
+
+.divider {
+  height: 2px;
+  background-color: var(--bs-success);
+  margin: 20px 0px !important;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin: 0 0 20px 20px !important;
+  /* padding: 5px !important; */
+  border: 1px solid #382d2d;
+  display: none;
+  perspective: 1000px;
+}
+
+.flip-card-back h {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+/* This container is needed to position the front and back side */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+
+.flip-card-front {
+  /* background-color: #bbb; */
+  /* color: black; */
+}
+
+.flip-card-front img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the back side */
+
+.flip-card-back {
+  /* background-color: dodgerblue; */
+  /* color: white; */
+  transform: rotateY(180deg);
+}
+
+.flip-card-back a {
+  /* color: white; */
+  text-decoration: none;
+}
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+  display: flex !important;
+}
+
+@media screen and (max-width: 576px) {
+  .flip-card-back h {
+    font-size: 1.1rem !important;
+  }
+}

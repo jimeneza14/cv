@@ -1,21 +1,30 @@
 import React from 'react';
+import pdf from '../../assets/pdf/cv-esp.pdf';
 
 const PDFViewer = () => {
+  const downloadLink = (
+    <p>
+      El archivo PDF no se puede mostrar. Puedes descargarlo{' '}
+      <a href={pdf} download="cv-esp.pdf">
+        aquí
+      </a>
+      .
+    </p>
+  );
+
   return (
-    <div>
-      <h2>Curriculum Vitae</h2>
-      <iframe
-        title="Curriculum Vitae"
+    <div style={{ width: '100%', height: '1100px' }}>
+      <object
+        data={pdf}
+        type="application/pdf"
         width="100%"
-        height="450px"
-        src="/cv-esp.pdf"
-        frameborder="0"
-        allowfullscreen="true"
+        height="100%"
+        aria-label="PDF viewer"
       >
-        Este navegador no puede mostrar el archivo PDF.
-      </iframe>
+        {downloadLink}
+      </object>
     </div>
   );
-}
+};
 
 export default PDFViewer;

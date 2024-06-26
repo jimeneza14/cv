@@ -1,3 +1,9 @@
+/*				*/
+/* 250px = 15.625em = 1, 389	*/
+/* 18px  => 100%		*/
+/* 250px => X			*/
+/*				*/
+
 .aboutme > div {
   padding: 20px 10px 2px !important;
 }
@@ -7,16 +13,41 @@
 }
 
 .aboutmenav{
-  background-color: #fff; /* Color de fondo cuando está fijo */
+  padding-top: 10px !important;
+  position: relative;
+  /*bottom: 0;*/
+  width: 100%;
+  z-index: 7000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: top 0.5s ease-in-out;
+}
+
+.aboutmenav a{
+  --margin: 0px 10px 10px 0px !important;
+  --bs-btn-color: #212529;
+  --bs-btn-border-color: #212529;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-border-color: #212529;
+  --bs-btn-focus-shadow-rgb: 33, 37, 41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #212529;
+  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
 }
 
 .sticky-nav {
-  position: fixed;
-  top: 0;
-  width: 75%;
-  z-index: 1000; /* Ajusta según sea necesario */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra cuando está fijo */
+  position: fixed !important;
+  background-color: var(--bs-light-bg-subtle);
+  top: 0px !important;
+  left: 0 !important;
   transition: 0.5s;
+  padding-left: 250px !important;
+  transition: top 0.5s ease-in-out;
 }
 
 .workexperience div {
@@ -41,7 +72,7 @@
 .skillindicatorouter,
 .languagesindicatorouter {
   padding: 0 !important;
-  z-index: 8888;
+  z-index: 5000;
   overflow: hidden;
   background: var(--bs-body-color);
   width: 200px;
@@ -50,8 +81,8 @@
 
 .skillindicatorouter > div,
 .languagesindicatorouter > div {
-  z-index: 9999;
-  background: #faf9fb;
+  z-index: 6000;
+  background-color: var(--bs-gray-400);
   width: 90%;
   height: 15px;
 }
@@ -68,10 +99,14 @@
 
 @media screen and (max-width: 576px) {
   .sticky-nav {
-    width: 95%;
+    position: fixed !important;
+    background-color: var(--bs-dark-bg-subtle);
+    width: 100%;
     top: 80px !important;
     transition: 0.5s;
     padding: 0 !important;
+    /*margin-left: -10px !important;*/
+    transition: top 0.5s ease-in-out;
   }
 
   .aboutme > div{
