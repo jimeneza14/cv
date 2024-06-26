@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import WorkExperienceData from "../Utils/WorkExperienceData.json";
 import "./AboutMe.css";
 

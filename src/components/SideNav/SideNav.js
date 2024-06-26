@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import HeroSection from "./HeroSection";
 import SideNavDec from "./SideNavDec";
 import SideNavSocial from "./SideNavSocial";
-import PDFViewer from "../AboutMe/PDFViewer";
 
 import "./SideNav.css";
 

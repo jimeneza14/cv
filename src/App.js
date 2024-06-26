@@ -30,7 +30,7 @@ const App = () => {
                 <PDFViewer />
               </Route>
               <Route path="/">                
-                <Portfolio />
+                <AboutMe />
               </Route>
             </Switch>
           </div>

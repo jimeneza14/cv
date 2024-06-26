@@ -1,7 +1,7 @@
 import React from "react";
 
 const SideNavSocial = () => {
-  const phoneNumber = process.env.REACT_APP_WHATSAPP_NUMBER;
+  const phoneNumber = process.env.REACT_APP_PHONE_NUMBER;
   if (!phoneNumber) {
     console.error(
       "Número de WhatsApp no configurado en las variables de entorno."
