@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Blogger",
+    "description": "Mi plataforma para crear y alojar y gestionar mis blogs e interactuar con las audiencias a través de comentarios.",
+    "image": "Blogger.png",
+    "dev": "fullstack",
+    "link": "https://jimeneza.blogspot.com/"
+  }
+  ,{
+      "id": "2",
+      "name": "NA",
+      "description": "Aun no hay implementacion",
+      "image": "Empty.png",
+      "dev": "backend",
+      "link": "#"
+    }
+    ,{
+      "id": "3",
+      "name": "Github",
+      "description": "Codigo fuente del portafolio personal",
+      "image": "my-site.png",
+      "dev": "frontend",
+      "link": "https://jimeneza14.github.io/cv/"
+    }
+]
